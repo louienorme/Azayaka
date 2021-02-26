@@ -1297,6 +1297,16 @@
 			color: #fff;
 		}
 
+		.banner{
+			width: 100%;
+			display: block;
+		}
+
+		.banner > .banner-image{
+			width: 100%;
+			display: block;
+		}
+
 	body.is-loading #banner:after {
 		opacity: 1.0;
 	}
