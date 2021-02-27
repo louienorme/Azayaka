@@ -69,7 +69,15 @@
 /* Box */
 
 	.box.post {
-		max-width: 23em;
+		max-width: 25em;
+	}
+
+	.col-container {
+    	display: table; /* Make the container element behave like a table */
+	}
+
+	.col {
+	    display: table-cell; /* Make elements inside the container behave like table cells */
 	}
 
 /* Slider */
@@ -118,11 +126,6 @@
 			border-bottom-right-radius: 0;
 		}
 
-/* CTA */
-
-	#cta {
-		padding: 2em 0;
-	}
 
 /* Footer */
 
